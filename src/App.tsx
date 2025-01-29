@@ -43,7 +43,8 @@ function App() {
 
   return (
     <>
-      <div className="flex h-screen justify-center items-center">
+      <div className="flex h-screen justify-center items-center flex-col">
+        <h1 className="mb-5 text-3xl font-bold">SMKNJ Bisa <i className="bi bi-hand-thumbs-up-fill"></i></h1>
         <div className="bg-gray-200 p-5 rounded-lg shadow-lg">
           <div className="mb-4">
             <div className="w-full p-2 text-right text-4xl bg-white border rounded">
@@ -95,6 +96,7 @@ function App() {
             </button>
           </div>
         </div>
+        <p className="mt-5 text-sm text-gray-500">UKK 2025 Sukses & Tuntas</p>
       </div>
     </>
   );
