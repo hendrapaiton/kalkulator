@@ -1,2 +1,7 @@
 @import "tailwindcss";
 @import "bootstrap-icons/font/bootstrap-icons.css";
+@import "@fontsource-variable/orbitron";
+
+body {
+  font-family: "Orbitron Variable", sans-serif;
+}
