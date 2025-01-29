@@ -1,7 +1,12 @@
 function App() {
   return (
     <>
-      <h1>Yahoo Isekai</h1>
+      <div className="flex h-screen justify-center items-center">
+        <h1 className="font-extrabold text-6xl">
+          <i className="bi bi-globe-asia-australia me-5"></i>
+          Yahoo Isekai
+          </h1>
+      </div>
     </>
   );
 }
